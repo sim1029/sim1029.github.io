@@ -1,22 +1,121 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>REPLACE_ME</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Simon Schueller</title>
   </head>
   <body>
-    <div class="container">
-      <div class="blurb">
-        <h1>Hi there, I'm REPLACE_ME!</h1>
-        <p>Who am I?</p>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://sim1029.github.io">
+        SimonSaysHello
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">Résume</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron mb-0 pb-0">
+      <div class="profile-picture">
+        <img src="SimonProfilepic.jpg" alt="" id="Simon">
+      </div>
+      <div class="lead">
+        <h1 class="display-4">Simon Schueller</h1>
+        <p class="lead" id="mini-bio">Computer Science student at the University of Pittsburgh <a href="https://pitt.edu"><img src="shield.png" id="shield"></a></p>
+        <a id="email-link" href = "mailto: sps67@pitt.edu">sps67@pitt.edu</a>
+      </div>
+      <hr class="my-5" id="rule1">
+    </div>
+
+    <div class="about-me">
+      <img src="businessman.png" alt="">
+      <h1>About Me</h1>
+      <p class="bio">Hello! I'm <strong>Simon Schueller</strong> and I am a freshman undergraduate computer science <strong>student</strong> at the <strong>University of Pittsburgh</strong> in Pittsburgh, PA. I am a hard-working, creative <strong>software engineer</strong> who is quick to learn new skills. <strong> I love all things CS! </strong></p>
+      <p class="bio">In my free time I enjoy playing <strong>basketball, golf, and the piano</strong>. I love meeting new people and hanging out with my friends. Also, I do lots of <strong>yoga</strong> to stay fit. </p>
+      <hr class="my-5" id="rule1">
+    </div>
+
+    <div class="projects">
+      <img src="project-management.png" alt="">
+      <h1>Projects</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="card custom-card" style="width: 18rem;">
+            <img src="appstore.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PizzaBuddy</h5>
+              <p class="card-text">PizzaBuddy is a social network for Pizza drivers, equipped with tools to make the job of drivers easier.</p>
+              <a href="https://github.com/sim1029" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+
+          <div class="card custom-card" style="width: 18rem;">
+            <img src="carbo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carbo</h5>
+              <p class="card-text">Carbo is a multiplayer IOS car battle game. Carbo runs on its own server designed for the project.</p>
+              <a href="https://github.com/sim1029" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="card custom-card" style="width: 18rem;">
+            <img src="flashchat.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Flash-Chat</h5>
+              <p class="card-text">Flash Chat is an internet based messaging app similar to WhatsApp, the popular messaging app.</p>
+              <a href="https://github.com/sim1029/Flash-Chat" class="btn btn-primary">GitHub</a>
+            </div>
+          </div>
+
+            <div class="card custom-card" style="width: 18rem;">
+              <img src="hackernews.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">H4XOR News</h5>
+                <p class="card-text">An app that takes the top scoring articles from Hacker News and displays them on iPhone and iMac.</p>
+                <a href="https://github.com/sim1029/H4XOR-NEWS" class="btn btn-primary">GitHub</a>
+              </div>
+        </div>
       </div>
     </div>
-    <footer>
-      <ul>
-        <li><a href="mailto:REPLACE_ME@gmail.com">REPLACE_ME</a></li>
-        <li>
-          <a href="https://github.com/REPLACE_ME">github.com/REPLACE_ME</a>
-        </li>
-      </ul>
-    </footer>
+    <hr class="my-5" id="rule1">
+    </div>
+
+    <div class="Resume">
+      <img src="job-search.png" alt="">
+      <h1>Résume</h1>
+      <div class="container">
+        <div class="row justify-content-center">
+          <form action="https://resume.creddle.io/resume/3uanczp2lzj" method="get">
+            <button class="btn btn-primary btn-lg my-btn" type="submit">View Résume</button>
+          </form>
+          <form class="" action="resume.pdf" method="get">
+            <button class="btn btn-primary btn-lg my-btn" type="submit">Download Résume</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
